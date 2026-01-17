@@ -37,19 +37,25 @@ const SkillsList = () => {
   const [openItem, setOpenItem] = useState<string | null>(null);
 
   const skills = {
-    "Web Development": [
-      "Single Page Applications (SPAs)",
-      "Landing pages and business websites",
-      "Portfolio websites",
+    "Frontend Development": [
+      "Building scalable web applications using React and Next.js",
+      "Creating responsive and performance-optimized user interfaces",
+      "State management, routing, and component architecture",
     ],
-    "Mobile Development": [
-      "Mobile-friendly web apps",
-      "React Native mobile apps",
+    "Backend Development": [
+      "Developing REST APIs using Node.js and Express",
+      "Working with SQL databases (Turso, SQLite, MySQL)",
+      "Authentication, authorization, and server-side logic",
     ],
-    "UI/UX Design & Prototyping": [
-      "UI design with Figma & Canva",
-      "UX research & improvements",
-      "Prototyping for websites & mobile apps",
+    "Full-Stack Engineering": [
+      "End-to-end application development (frontend + backend)",
+      "API integration and deployment",
+      "Environment configuration and production readiness",
+    ],
+    "Problem Solving & DSA": [
+      "Data Structures and Algorithms (LeetCode practice)",
+      "Writing efficient and optimized code",
+      "Understanding system internals and performance trade-offs",
     ],
   };
 

@@ -1,9 +1,9 @@
 ---
 import { Image } from "astro:assets";
-import svgl from "../../public/svgl.png";
-import stockin from "../../public/stockin.png";
-import moviesfordevs from "../../public/moviesfordevs.png";
-import tron from "../../public/tron.png";
+import ppi from "../../public/ppi.png";
+import chat from "../../public/chat.png";
+import nanoplot from "../../public/nanoplot.png";
+import glow from "../../public/glow.png";
 
 interface Project {
   title: string;
@@ -15,32 +15,32 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "MoviesForDevs",
-    image: moviesfordevs as ImageMetadata,
-    link: "https://github.com/gothsec/MoviesForDevs",
-    preview: "https://movies-for-devs.vercel.app",
-    status: "On Development",
+    title: "Chat app",
+    image: chat as ImageMetadata,
+    link: "https://github.com/corazoan/chat",
+    preview: "https://firstproject-b7783.web.app/chatroom",
+    status: "Completed",
   },
   {
-    title: "StockIn",
-    image: stockin as ImageMetadata,
-    link: "https://github.com/gothsec/stockin-demo",
-    preview: "https://stockin-demo.vercel.app",
-    status: "On Development",
-  },
-  {
-    title: "Svgl.app",
-    image: svgl as ImageMetadata,
-    link: "https://github.com/pheralb/svgl",
-    preview: "https://svgl.app",
+    title: "Nanoplot",
+    image: nanoplot as ImageMetadata,
+    link: "https://github.com/ShanonJackson/nanoplot",
+    preview: "https://nanoplot.com/documentation/1.0.0/getting-started",
     status: "Contributor",
   },
   {
-    title: "Tron Legacy Web",
-    image: tron as ImageMetadata,
-    link: "https://github.com/Gothsec/Tron-Legacy-web",
-    preview: "https://tron-legacy-web.vercel.app/",
-    status: "Template (not official)",
+    title: "Freelance Project",
+    image: ppi as ImageMetadata,
+    link: "https://parivartanpartyofindia.org/",
+    preview: "https://parivartanpartyofindia.org/",
+    status: "Completed",
+  },
+  {
+    title: "UI Design",
+    image: glow as ImageMetadata,
+    link: "https://github.com/corazoan/glow-effect-implementation",
+    preview: "https://glow-effect-implementation.vercel.app/",
+    status: "Landing page design",
   },
 ];
 ---
@@ -117,7 +117,7 @@ const projects: Project[] = [
     </div>
     <a
       target="_blank"
-      href="https://github.com/Gothsec?tab=repositories"
+      href="https://github.com/corazoan"
       aria-label="GitHub"
       class="w-full flex items-center justify-center gap-2 mt-9 text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-full bg-[#1414149c] hover:bg-[var(--white-icon-tr)] hover:scale-105"
     >
