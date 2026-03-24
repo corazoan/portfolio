@@ -1,6 +1,9 @@
 ---
 import { Image } from "astro:assets";
 import ppi from "../../public/ppi.png";
+import springOrigin from "../../public/spring-origin.png";
+import clayBotik from "../../public/clay-botik.png";
+import goldenBlush from "../../public/golden-blush.png";
 import chat from "../../public/chat.png";
 import nanoplot from "../../public/nanoplot.png";
 import glow from "../../public/glow.png";
@@ -15,10 +18,31 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Chat app",
-    image: chat as ImageMetadata,
-    link: "https://github.com/corazoan/chat",
-    preview: "https://firstproject-b7783.web.app/chatroom",
+    title: "Freelance Ecommerce Project",
+    image: springOrigin as ImageMetadata,
+    link: "https://springorigin.in/",
+    preview: "https://springorigin.in/",
+    status: "Completed",
+  },
+  {
+    title: "Clay Botik",
+    image: clayBotik as ImageMetadata,
+    link: "https://claybotik.com/",
+    preview: "https://claybotik.com/",
+    status: "Completed",
+  },
+  {
+    title: "Golden Blush",
+    image: goldenBlush as ImageMetadata,
+    link: "https://goldenblush.in/",
+    preview: "https://goldenblush.in/",
+    status: "Completed",
+  },
+  {
+    title: "Freelance Project",
+    image: ppi as ImageMetadata,
+    link: "https://parivartanpartyofindia.org/",
+    preview: "https://parivartanpartyofindia.org/",
     status: "Completed",
   },
   {
@@ -29,10 +53,10 @@ const projects: Project[] = [
     status: "Contributor",
   },
   {
-    title: "Freelance Project",
-    image: ppi as ImageMetadata,
-    link: "https://parivartanpartyofindia.org/",
-    preview: "https://parivartanpartyofindia.org/",
+    title: "Chat app",
+    image: chat as ImageMetadata,
+    link: "https://github.com/corazoan/chat",
+    preview: "https://firstproject-b7783.web.app/chatroom",
     status: "Completed",
   },
   {
